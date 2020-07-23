@@ -1,0 +1,89 @@
+@import 'https://fonts.googleapis.com/css?family=Comfortaa';
+@import 'https://fonts.googleapis.com/css?family=Rowdies';
+@import 'https://fonts.googleapis.com/css?family=B612';
+@import 'https://fonts.googleapis.com/css?family=Cairo';
+@import 'https://fonts.googleapis.com/css?family=Bree+Serif';
+@import 'https://fonts.googleapis.com/css?family=Valera';
+
+/*Body and word styling*/
+
+body{
+      font-family: Comfortaa;
+      background-color: #262629;
+      color: #cfc1b3;
+}
+
+
+h1
+  { font-family: "Bree Serif";
+    color: #ee4a56;
+  }
+
+  h2
+    { font-family: Cairo;
+    }
+
+
+  h3
+    { font-family: Cairo;
+    }
+
+  h4
+      { font-family: B612;
+      }
+
+footer{
+        font-family: "Bree Serif";
+
+      }
+
+div.bottom{
+        position: absolute;
+        width: 50%;
+        bottom: 10px;
+}
+
+/* Navigation Bar */
+
+nav{
+  font-family: B612;
+  font-size: 20px;
+}
+
+
+ul.nav-bulletless{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #e3937f;
+
+}
+
+li.nav{
+  float: left;
+}
+
+li a{
+  display block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #86c3cd;
+    text-decoration: underline;
+    color: #66293b;
+}
+
+.active {
+    background-color: #4ac15b;
+    color: #1f1818;
+    font-weight: bold;
+
+}
