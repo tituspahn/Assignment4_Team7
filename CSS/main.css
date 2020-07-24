@@ -4,7 +4,7 @@
 @import 'https://fonts.googleapis.com/css?family=Cairo';
 @import 'https://fonts.googleapis.com/css?family=Bree+Serif';
 @import 'https://fonts.googleapis.com/css?family=Valera';
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p');
+@import 'https://fonts.googleapis.com/css2?family=M+PLUS+1p';
 @import 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC';
 
 
@@ -63,7 +63,7 @@ div.bottom{
 #Japanese
 {
   font-family: 'M PLUS 1p', sans-serif;
-      
+
 }
 
 #Chinese
