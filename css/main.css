@@ -1,0 +1,126 @@
+@import 'https://fonts.googleapis.com/css?family=Comfortaa';
+@import 'https://fonts.googleapis.com/css?family=Rowdies';
+@import 'https://fonts.googleapis.com/css?family=B612';
+@import 'https://fonts.googleapis.com/css?family=Cairo';
+@import 'https://fonts.googleapis.com/css?family=Bree+Serif';
+@import 'https://fonts.googleapis.com/css?family=Valera';
+@import 'https://fonts.googleapis.com/css2?family=M+PLUS+1p';
+@import 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC';
+
+
+/*Body and word styling*/
+
+body{
+      font-family: Comfortaa;
+      background-color: #262629;
+      color: #cfc1b3;
+      /* */
+}
+
+
+h1
+  { font-family: "Bree Serif";
+    color: #ee4a56;
+    padding: 10px;
+  }
+
+  h2
+    { font-family: Cairo;
+      padding: 10px;
+    }
+
+
+  h3
+    { font-family: Cairo;
+      padding: 10px;
+    }
+
+  h4
+      { font-family: B612;
+        padding: 10px;
+      }
+
+footer{
+        font-family: "Bree Serif";
+
+      }
+
+    p{
+      padding: 10px;
+    }
+
+    form
+    {
+      padding: 10px;
+    }
+
+div.bottom{
+        position: absolute;
+        width: 50%;
+        bottom: 10px;
+}
+
+#Japanese
+{
+  font-family: 'M PLUS 1p', sans-serif;
+
+}
+
+#Chinese
+{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* Navigation Bar */
+
+nav{
+  font-family: B612;
+  font-size: 20px;
+}
+
+
+ul.nav-bulletless{
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #e3937f;
+}
+
+
+button.nav1
+{
+   background-color: #fefbef;
+    color: #161618;
+}
+
+button.buttony
+{   display: inline-flex;
+    position: fixed;
+    background-color: #d2beb6;
+    color: #2c3231;
+    font-family: B612;
+    right: 20px;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    /* display: flex-end; */
+}
+
+
+button:hover:not(.active) {
+  background-color: #86c3cd;
+  text-decoration: underline;
+  color: #66293b;
+}
+
+button.active {
+  background-color: #4ac15b;
+  color: #1f1818;
+  font-weight: bold;
+}
