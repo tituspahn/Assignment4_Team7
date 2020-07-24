@@ -14,3 +14,16 @@ function nav_tab(){
 btn.onclick = function(){
   nav_tab();
 }
+
+
+
+function resetFunction(){
+    alert("Your account'd been reset. Please try logging in again.");
+}
+
+function signupFunction(){
+    alert("Your account'd been created. Please check your email to complete the process.");
+}
+function loginFunction(){
+    alert("The User ID & Password do not match. Please try again.");
+}
